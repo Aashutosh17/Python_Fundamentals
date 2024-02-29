@@ -1,4 +1,4 @@
-Python Fundamentals
+# Python Fundamentals
 
 ## This repository contains fundamental Python scripts and projects aimed at mastering Python programming concepts.
 
