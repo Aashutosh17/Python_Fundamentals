@@ -34,21 +34,29 @@ c = int(input('Enter your num c: '))
 #   print(f'c {c} is greater!')
   
   
-if (a>=b ):
-    greatest = a 
-    smallest = b
-    if(b<c):
-        smallest = b
-elif(b>=c):
-    greatest = b
-    smallest = c 
-    if(a<c):
-       smallest = a 
-else:
-    greatest = c 
-    smallest = b 
-    if (a<b):
-        smallest = a 
+# if (a>=b ):
+#     greatest = a 
+#     smallest = b
+#     if(b<c):
+#         smallest = b
+# elif(b>=c):
+#     greatest = b
+#     smallest = c 
+#     if(a<c):
+#        smallest = a 
+# else:
+#     greatest = c 
+#     smallest = b 
+#     if (a<b):
+#         smallest = a 
 
-print('smallest' + str(smallest) + 'largest'+str(greatest))
+# print('smallest' + str(smallest) + 'largest'+str(greatest))
  
+
+n = int(input('Enter your num n: '))
+
+
+
+
+   
+    
