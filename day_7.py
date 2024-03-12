@@ -1,5 +1,5 @@
 '''
-OOPS in python
+OOPS in python; Class, Function, Object
 '''
 
 class Vehicle():
