@@ -25,20 +25,16 @@ V1.add_wheels()
 
 
 class Teacher():
-
-    def __init__(self,name,age,salary) -> None:
-        self.name=name
-        self.age=age
-        self.salary=salary
-
-    def add_salary(self,new_salary):
-        self.salary=self.salary+new_salary
     
-    def minus_salary(self,minus):
-        self.salary=self.salary-minus
+    def minus_salary (self,minus):
+        self.__salary = self._salary-minus
 
     def __str__(self) -> str:
-        return self.name
+        return self.name+ ' ', str(self.age)+ ' '+ str(self.salary)
+    
+    @property
+    def salary(self):
+        return self.__salary
 
 T1=Teacher('nabin',27,10000)
 T2= Teacher('aashutosh',21,15000)
@@ -55,4 +51,4 @@ print(T3.name, T3.salary)
 # T1.add_salary(1000)
 # T2.minus_salary(1000)
 # print(T1.name,T1.salary,T2.name,T2.salary)
-# print(T1)
+print(T1.salary)
