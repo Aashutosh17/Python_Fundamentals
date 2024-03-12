@@ -93,7 +93,7 @@ class teacher():
         return self.age+obj.age
 
 t1=teacher('nabin',23)
-t2=teacher('ashutosh',25)
+t2=teacher('aashutosh',25)
 
 
 print(t1.__dict__)
